@@ -1,5 +1,6 @@
 class PostsController < ApplicationController
 
+    #changes for first branch
     def index
     	@posts=Post.all
     end
