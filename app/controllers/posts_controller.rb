@@ -1,5 +1,6 @@
 class PostsController < ApplicationController
 
+	before_action :authenticate_user!
     #changes for first branch
     def index
     	@posts=Post.all
